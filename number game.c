@@ -49,7 +49,7 @@ void load()
     for (int i = 0; i < 6; i++)
     {
         printf("·");
-        Sleep(500 * sqrt(i * i));
+        //Sleep(500 * sqrt(i * i));//延迟函数,可以不用
     }
     printf("\n");
     game();                                                  //进入游戏主程序
